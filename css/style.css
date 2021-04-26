@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Sriracha&display=swap');
+
+body{
+
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin: 0;          /*กำหนดตัวหนังสือและขนาดและสีภายใน body ทั้งหมด*/
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Sriracha', sans-serif; /* กำหนดฟอนต์หัวข้อ*/
+}
+a{
+    color: coral;
+    text-decoration: none; /* เปลี่ยนสีลิ้งก์และไม่มีขีดเส้นใต้*/
+}
+a:hover{
+    color: brown;
+    text-decoration: underline; /* เมื่อเม้าส์ชี้ให้แสดงสีน้ำตาลและมีขีดเส้นใต้*/
+}
+.absolute-middle{
+    position: absolute;
+    top: 50%;             /* กำหนด absolute-middle ตัวกลาง*/
+    transform: translateY(-50%);
+}
+.absolute-middle.absolute-center{
+    position: abolute;
+    top: 50%;
+    left: 50%;   /* จัดกึ่งกลางแนวตั้งแนวนอน */
+    transform: translate(-50%,-50%)
+    
+}
+form.style-1 input, form.style-1 button{
+    border-radius: 4px;    /*กำหนดเฉพาะ input และ buttun ที่มีคลาส style-1*/
+    padding: 10px;
+    border: 1px solid #AAA;
+}
+form.style-1 button{
+    background: #AAA;
+    color: white;
+    cursor: pointer;   /*กำหนดเฉพาะ Style-1 button*/
+}
+form.style-1 button:hover{
+    background: coral; /*เมื่อเมาส์ Hover จะเป็นสี coral*/
+}

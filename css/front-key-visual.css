@@ -1,0 +1,16 @@
+#front-key-visual{
+    width: 100%;
+    color: white;
+    background: black;
+}
+#front-key-visual .visual-viewport{
+    height: 200px;
+}
+#eater-holder{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+#eater-holder .eater-top, #eater-holder .eater-bottom{
+    background: white;   /*กำหนดสีเฉพาะเจาะจงตัววงกลม*/
+}

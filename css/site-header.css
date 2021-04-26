@@ -1,0 +1,11 @@
+#site-header{
+    position: relative;
+}
+#site-logo > h1{
+    font-size: 48px; /*ขนาดฟ้อนต์โลโก้*/
+    margin-bottom: 0px; /* ระยะขอบกั้น*/
+    line-height: 30%; /*ส่วนสูงของบรรทัด*/
+}
+#search-form{
+    right: 0;
+}

@@ -1,0 +1,17 @@
+section, nav{  
+    margin:0;   /* section และ nav ให้ไม่มีช่องว่าง*/
+    padding: 0;
+}
+#site-header, #menu-bar, #front-grid, #site-footer,#front-key-visual .visual-viewport{
+    box-sizing: border-box;  /*ขนาดที่กำหนดรวมทั้งหมด*/
+    width: 100%;                /* กว้าง 100% กว้างสุด 640 กว้างน้อยสุดไม่ต่ำกว่า400*/
+    max-width: 640px;
+    min-width: 400px;
+    margin: auto;
+
+}
+#front-key-visual{
+    width: 100%;
+    height: 200px;  /*ตั้งค่าขนาดรูป*/
+    overflow: hidden;
+}
